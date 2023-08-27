@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/wen-base/static/css/main.57cf90aa.css",
+    "main.js": "/wen-base/static/js/main.90d1837d.js",
+    "static/media/second.png": "/wen-base/static/media/second.4d359fd18be7603ca69e.png",
+    "static/media/hero.png": "/wen-base/static/media/hero.5b5d68cf48430ed91f93.png",
+    "static/media/third.png": "/wen-base/static/media/third.fcfa4fe4606ab2e47160.png",
+    "static/media/fourth.png": "/wen-base/static/media/fourth.37befbae406726a1b4c9.png",
+    "static/media/first.png": "/wen-base/static/media/first.9c973377643f9ad5cb36.png",
+    "index.html": "/wen-base/index.html",
+    "main.57cf90aa.css.map": "/wen-base/static/css/main.57cf90aa.css.map",
+    "main.90d1837d.js.map": "/wen-base/static/js/main.90d1837d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57cf90aa.css",
+    "static/js/main.90d1837d.js"
+  ]
+}
