@@ -1,0 +1,180 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    font: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+ul[class] {
+    list-style: none;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: "custom";
+    src: url("./font.ttf");
+}
+
+body {
+    font-family: "custom";
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo {
+    width: 120px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.tabs {
+    border-bottom: lightgray solid 3px;
+    padding-bottom: 20px;
+    min-height: 60vh;
+    margin: 0 auto;
+}
+.tabs__nav {
+    display: flex;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    border-top: lightgray solid 3px;
+    border-bottom: lightgray solid 3px;
+    margin-bottom: 60px;
+}
+.tabs__btn {
+    color: lightgray;
+    cursor: pointer;
+    width: 33%;
+    text-align: center;
+    font-size: 32px;
+
+    border-right: lightgray solid 3px;
+    line-height: 40px;
+}
+.tabs__btn:last-child {
+    border: 0;
+}
+
+.tabs__tab {
+    display: none;
+}
+.tabs__tab.active {
+    display: block;
+}
+
+.tabs__btn.active {
+    color: black;
+}
+.tabs__text {
+    font-size: 32px;
+}
+.tabs__title {
+    margin-bottom: 20px;
+}
+.tabs__stack {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.tabs__logo {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.tabs__list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.tabs__col {
+    width: 40%;
+}
+.tabs__col .tabs__text {
+    margin-bottom: 15px;
+    line-height: 24px;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 20px;
+}
+.tabs__col .tabs__text:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #5fff3b;
+    border-radius: 50%;
+    left: -20px;
+    bottom: 8px;
+}
+@media screen and (max-width: 1400px) {
+    .tabs {
+        width: 100%;
+    }
+    .tabs__logo {
+        margin: 0 30px;
+    }
+
+}
+/* @media screen and (max-width: 900px) {
+    .tabs__text {
+        font-size: 42px;
+    }
+    .tabs__btn {
+        font-size: 42px;
+    }
+} */
